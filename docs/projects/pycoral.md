@@ -1,8 +1,5 @@
 # [pycoral: Simple CLI for Allen Coral Atlas](https://samapriya.github.io/pycoral/)
 
-[Go to Readme Page here](https://samapriya.github.io/pycoral/)
-
-
 [![Twitter URL](https://img.shields.io/twitter/follow/samapriyaroy?style=social)](https://twitter.com/intent/follow?screen_name=samapriyaroy)
 [![Hits-of-Code](https://hitsofcode.com/github/samapriya/pycoral?branch=main)](https://hitsofcode.com/github/samapriya/pycoral?branch=main)
 ![PyPI - License](https://img.shields.io/pypi/l/pycoral)

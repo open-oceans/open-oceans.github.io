@@ -1,7 +1,5 @@
 # [pyaqua: Simple CLI for Aqualink.org API](https://samapriya.github.io/pyaqua/)
 
-[Go to Readme Page here](https://samapriya.github.io/pyaqua/)
-
 [![Twitter URL](https://img.shields.io/twitter/follow/samapriyaroy?style=social)](https://twitter.com/intent/follow?screen_name=samapriyaroy)
 [![Hits-of-Code](https://hitsofcode.com/github/samapriya/pyaqua?branch=main)](https://hitsofcode.com/github/samapriya/pyaqua?branch=main)
 [![CI pyaqua](https://github.com/samapriya/pyaqua/actions/workflows/package_ci.yml/badge.svg)](https://github.com/samapriya/pyaqua/actions/workflows/package_ci.yml)
