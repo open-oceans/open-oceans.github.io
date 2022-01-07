@@ -96,4 +96,10 @@ nav:
   - pycoral - Simple CLI for Allen Coral Atlas: projects/pycoral.md
   - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
   - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
+  - Open Ocean Datasets in Google Earth Engine:
+    - Global Shoreline Dataset: projects/shoreline.md
+    - General Bathymetric Chart of the Oceans (GEBCO): projects/gebco.md
+    - Argo Float Data(Subset): projects/argo.md
+    - Global Storm Surge Reconstruction (GSSR) database: projects/gssr.md
+    - Aqualink ocean surface and subsurface temperature subset: projects/aqualink.md
   - Citations: citations.md
