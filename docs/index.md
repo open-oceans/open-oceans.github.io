@@ -9,3 +9,4 @@ Each of the tools includes have their own readme page where you will get the mos
 * [pycoral: Simple CLI for Allen Coral Atlas](https://samapriya.github.io/pycoral/)
 * [pyspotter: Simple CLI for SofarOcean API for spotters](https://samapriya.github.io/pyspotter/)
 * [pyaqua: Simple Command Line Interface Tool for Aqualink.org API](https://samapriya.github.io/pyaqua/)
+* [argofloats: Simple CLI for ArgoVis and Argofloats](https://samapriya.github.io/argofloats/)
