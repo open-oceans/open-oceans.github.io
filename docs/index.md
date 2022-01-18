@@ -10,3 +10,4 @@ Each of the tools includes have their own readme page where you will get the mos
 * [pyspotter: Simple CLI for SofarOcean API for spotters](https://samapriya.github.io/pyspotter/)
 * [pyaqua: Simple Command Line Interface Tool for Aqualink.org API](https://samapriya.github.io/pyaqua/)
 * [argofloats: Simple CLI for ArgoVis and Argofloats](https://samapriya.github.io/argofloats/)
+* [argopy: Argo data access, manipulation and visualisation for standard users as well as Argo experts](https://github.com/euroargodev/argopy)
