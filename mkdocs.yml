@@ -97,6 +97,7 @@ nav:
   - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
   - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
   - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
+  - argopy - Argo data access, manipulation and visualisation for standard users as well as Argo experts: projects/argopy.md
   - Open Ocean Datasets in Google Earth Engine:
     - Global Shoreline Dataset: projects/shoreline.md
     - General Bathymetric Chart of the Oceans (GEBCO): projects/gebco.md
