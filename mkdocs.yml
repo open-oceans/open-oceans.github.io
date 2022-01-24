@@ -102,6 +102,7 @@ nav:
     - Global Shoreline Dataset: projects/shoreline.md
     - General Bathymetric Chart of the Oceans (GEBCO): projects/gebco.md
     - Argo Float Data(Subset): projects/argo.md
+    - Global gridded sea surface temperature (SSTG): projects/sstg.md
     - Global Storm Surge Reconstruction (GSSR) database: projects/gssr.md
     - Aqualink ocean surface and subsurface temperature subset: projects/aqualink.md
     - Plastic Inputs from Rivers into Oceans: projects/plastic.md
