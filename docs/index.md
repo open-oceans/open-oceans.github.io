@@ -11,3 +11,4 @@ Each of the tools have their own readme page where you will get the most updated
 * [pyaqua: Simple Command Line Interface Tool for Aqualink.org API](https://samapriya.github.io/pyaqua/)
 * [argofloats: Simple CLI for ArgoVis and Argofloats](https://samapriya.github.io/argofloats/)
 * [argopy: Argo data access, manipulation and visualisation](https://github.com/euroargodev/argopy)
+* [gfw: Simple CLI for Global Fishing Watch Data](https://samapriya.github.io/gfw)
