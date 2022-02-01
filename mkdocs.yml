@@ -93,11 +93,11 @@ markdown_extensions:
 # Page tree
 nav:
   - Open Oceans: index.md
-  - Data portals:
+  - Data portal tools:
     - pycoral - Simple CLI for Allen Coral Atlas: projects/pycoral.md
     - gfw- Simple CLI for Global Fishing Watch Data: projects/gfw.md
     - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
-  - Spotters and Buoys:
+  - Spotters and Buoys tools:
     - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
   - Argofloat tools:
     - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
