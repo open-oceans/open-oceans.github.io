@@ -6,14 +6,26 @@ site_url: https://open-oceans.github.io
 # Repository
 repo_name: open-ocean-readme
 repo_url: https://github.com/open-oceans/open-oceans.github.io
+edit_uri: blob/main/docs/
 
 # Copyright
-copyright: 'Copyright &copy; 2021 - 2022 Samapriya Roy'
-
+copyright: "Copyright &copy; 2021 - 2024 Samapriya Roy"
 
 # Configuration
 theme:
-  name: 'material'
+  name: "material"
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
 
   # 404 page
   static_templates:
@@ -26,9 +38,18 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette:
-    scheme: default
-    primary: navy blue
-    accent: deep orange
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   font:
     text: Google Sans
     code: Regular
@@ -43,10 +64,22 @@ extra:
       link: https://github.com/samapriya
     - icon: fontawesome/brands/medium
       link: https://medium.com/@samapriyaroy
+    - icon: fontawesome/brands/mastodon
+      link: https://mapstodon.space/@samapriya
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/samapriyaroy
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/samapriya
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - minify:
+      minify_html: true
 
 # Extensions
 markdown_extensions:
@@ -69,6 +102,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -88,28 +124,26 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-
-
 # Page tree
 nav:
   - Open Oceans: index.md
   - Data portal tools:
-    - pycoral - Simple CLI for Allen Coral Atlas: projects/pycoral.md
-    - gfw- Simple CLI for Global Fishing Watch Data: projects/gfw.md
-    - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
+      - pycoral - Simple CLI for Allen Coral Atlas: projects/pycoral.md
+      - gfw- Simple CLI for Global Fishing Watch Data: projects/gfw.md
+      - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
   - Spotters and Buoys tools:
-    - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
+      - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
   - Argofloat tools:
-    - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
-    - argopy - Argo data access, manipulation and visualisation: projects/argopy.md
+      - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
+      - argopy - Argo data access, manipulation and visualisation: projects/argopy.md
   - Open Ocean Datasets in Google Earth Engine:
-    - Global Shoreline Dataset: projects/shoreline.md
-    - General Bathymetric Chart of the Oceans (GEBCO): projects/gebco.md
-    - Coastal National Elevation Database (CoNED) Project -Topobathymetric digital elevation models (TBDEMs): projects/tbdem.md
-    - NOAA Sea-Level Rise Digital Elevation Models (DEMs): projects/slrdem.md
-    - Argo Float Data(Subset): projects/argo.md
-    - Global gridded sea surface temperature (SSTG): projects/sstg.md
-    - Global Storm Surge Reconstruction (GSSR) database: projects/gssr.md
-    - Aqualink ocean surface and subsurface temperature subset: projects/aqualink.md
-    - Plastic Inputs from Rivers into Oceans: projects/plastic.md
+      - Global Shoreline Dataset: projects/shoreline.md
+      - General Bathymetric Chart of the Oceans (GEBCO): projects/gebco.md
+      - Coastal National Elevation Database (CoNED) Project -Topobathymetric digital elevation models (TBDEMs): projects/tbdem.md
+      - NOAA Sea-Level Rise Digital Elevation Models (DEMs): projects/slrdem.md
+      - Argo Float Data(Subset): projects/argo.md
+      - Global gridded sea surface temperature (SSTG): projects/sstg.md
+      - Global Storm Surge Reconstruction (GSSR) database: projects/gssr.md
+      - Aqualink ocean surface and subsurface temperature subset: projects/aqualink.md
+      - Plastic Inputs from Rivers into Oceans: projects/plastic.md
   - Citations: citations.md
