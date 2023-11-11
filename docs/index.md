@@ -11,13 +11,15 @@ The Open Oceans organization and project were established with the aim of catalo
 
 For detailed information on each tool, refer to their respective readme pages by clicking on the provided links:
 
-Created and maintained by Samapriya Roy
+#### Created and maintained by Samapriya Roy
+
 - [pycoral: A straightforward CLI for the Allen Coral Atlas](pycoral.openoceans.xyz)
 - [happywhale: A simple CLI for Happywhale.com API](happywhale.openoceans.xyz)
 - [pyaqua: A user-friendly Command Line Interface Tool for Aqualink.org API](pyaqua.openoceans.xyz)
 - [pyspotter: An uncomplicated CLI for the SofarOcean API designed for spotters](https://samapriya.github.io/pyspotter/)
 
-Other tools
+#### Other tools
+
 - [argopy: Facilitating Argo data access, manipulation, and visualization](https://github.com/euroargodev/argopy)
 
 For the most up-to-date information on each tool, refer to their respective readme pages.

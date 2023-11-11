@@ -39,7 +39,7 @@ theme:
   language: en
   palette:
     - scheme: default
-      primary: teal
+      primary: #005477
       accent: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
@@ -129,12 +129,12 @@ nav:
   - Open Oceans: index.md
   - Data portal tools:
       - pycoral - Simple CLI for Allen Coral Atlas: projects/pycoral.md
-      - gfw- Simple CLI for Global Fishing Watch Data: projects/gfw.md
       - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
-  - Spotters and Buoys tools:
-      - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
+      - happywhale- Simple CLI for happywhale.com: projects/happywhale.md
+  # - Spotters and Buoys tools:
+  #     - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
   - Argofloat tools:
-      - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
+      # - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
       - argopy - Argo data access, manipulation and visualisation: projects/argopy.md
   - Open Ocean Datasets in Google Earth Engine:
       - Global Shoreline Dataset: projects/shoreline.md
