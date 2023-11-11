@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://open-oceans.github.io/projects/happywhale/</loc>
+         <lastmod>2023-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://open-oceans.github.io/projects/plastic/</loc>
          <lastmod>2023-11-11</lastmod>
          <changefreq>daily</changefreq>
