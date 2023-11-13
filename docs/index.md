@@ -13,10 +13,10 @@ For detailed information on each tool, refer to their respective readme pages by
 
 #### Created and maintained by Samapriya Roy
 
-- [pycoral: A straightforward CLI for the Allen Coral Atlas](pycoral.openoceans.xyz)
-- [happywhale: A simple CLI for Happywhale.com API](happywhale.openoceans.xyz)
-- [pyaqua: A user-friendly Command Line Interface Tool for Aqualink.org API](pyaqua.openoceans.xyz)
-- [pyspotter: An uncomplicated CLI for the SofarOcean API designed for spotters](pyspotter.openoceans.xyz)
+- [pycoral: A straightforward CLI for the Allen Coral Atlas](https://pycoral.openoceans.xyz)
+- [happywhale: A simple CLI for Happywhale.com API](https://happywhale.openoceans.xyz)
+- [pyaqua: A user-friendly Command Line Interface Tool for Aqualink.org API](https://pyaqua.openoceans.xyz)
+- [pyspotter: An uncomplicated CLI for the SofarOcean API designed for spotters](https://pyspotter.openoceans.xyz)
 
 #### Other tools
 
