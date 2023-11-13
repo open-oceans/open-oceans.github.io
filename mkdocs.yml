@@ -131,8 +131,8 @@ nav:
       - pycoral - Simple CLI for Allen Coral Atlas: projects/pycoral.md
       - pyaqua- Simple CLI for Aqualink.org API: projects/pyaqua.md
       - happywhale- Simple CLI for happywhale.com: projects/happywhale.md
-  # - Spotters and Buoys tools:
-  #     - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
+  - Spotters and Buoys tools:
+      - pyspotter - Simple CLI for SofarOcean Spotters: projects/pyspotter.md
   - Argofloat tools:
       # - argofloats - Simple CLI for ArgoVis and Argofloats: projects/argofloats.md
       - argopy - Argo data access, manipulation and visualisation: projects/argopy.md
